@@ -131,6 +131,7 @@ group by type
 order by type;
 
 #Query 20
+#Not completed
 select account_id, 
 case 
 	when type='PRIJEM' then round(sum(amount))
@@ -147,7 +148,7 @@ group by type
 ;
 
 #Query 21
-
+#Not completed
 
 
 select * from trans; 
